@@ -1934,7 +1934,7 @@ while True:
 							)
 					await ctx.send( embed=embed, tts=False)
 				###########################미예약보스출력
-				if len(tmp_boss_information[0]) != 0:
+				"""if len(tmp_boss_information[0]) != 0:
 					if len(tmp_boss_information) == 1 :
 						tmp_boss_information[0] = "```fix\n" + tmp_boss_information[0][:len(tmp_boss_information[0])-1] + "\n```"
 					else:
@@ -1963,7 +1963,7 @@ while True:
 							color=0x0000ff
 							)
 					await ctx.send( embed=embed, tts=False)
-
+"""
 			await dbSave()
 			await kill_list_Save()
 		else:
@@ -2106,7 +2106,7 @@ while True:
 				await ctx.send( embed=embed, tts=False)
 
 			###########################미예약보스출력
-			if len(tmp_boss_information[0]) != 0:
+			"""if len(tmp_boss_information[0]) != 0:
 				if len(tmp_boss_information) == 1 :
 					tmp_boss_information[0] = "```fix\n" + tmp_boss_information[0][:len(tmp_boss_information[0])-1] + "\n```"
 				else:
@@ -2135,7 +2135,7 @@ while True:
 						color=0x0000ff
 						)
 				await ctx.send( embed=embed, tts=False)
-
+"""
 			await dbSave()
 			await kill_list_Save()
 		else:
