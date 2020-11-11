@@ -2175,7 +2175,7 @@ class mainCog(commands.Cog):
 						aa.append(tmp_bossTime[i])                       #output_bossData[1] : 시간
 					
 					        if datetime.datetime.now().strftime('%Y-%m-%d') == tmp_bossTime[i].strftime('%Y-%m-%d'):
-					            aa.append(tmp_bossTime[i].strftime('%H:%M:%S'))
+					           aa.append(tmp_bossTime[i].strftime('%H:%M:%S'))
 					        else:
 					           aa.append(f"[{tmp_bossTime[i].strftime('%Y-%m-%d')}] {tmp_bossTime[i].strftime('%H:%M:%S')}")
 							     
