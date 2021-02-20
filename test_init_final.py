@@ -3383,7 +3383,8 @@ class mainCog(commands.Cog):
 		else:
 			return
 
-	################ 페이백 계산기 ################ 
+	################ 페이백 계산기 ################
+	@commands.has_permissions(manage_messages=True)
 	@commands.command(name=command[36][0], aliases=command[36][1:])
 	async def payback_check(self, ctx, *, args : str = None):
 		if basicSetting[20] != "" and ctx.message.channel.id == basicSetting[7]:
